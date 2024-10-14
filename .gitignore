@@ -1,0 +1,88 @@
+# Others #
+######################
+.idea/
+.project/
+.bundle/
+*.retry
+# Project #
+######################
+source/package-lock.json
+#yarn.lock
+
+source/.cache
+source/node_modules
+source/bower_components
+# deploy/website/public/assets/*
+deploy/website/public/page_ouverture*
+deploy/website/public/dist/*
+!deploy/website/public/dist/icons/
+!deploy/website/public/dist/icons/*
+deploy/website/public/docs/*
+deploy/website/public/apidocs/*
+deploy/website/public/uploads/*
+deploy/website/public/scripts/*
+# deploy/website/public/styles/*
+deploy/website/.env
+deploy/website/.env.master
+deploy/website/.env.preprod
+deploy/website/.env.prod
+deploy/website/vendor/
+deploy/website/.cert/
+deploy/website/.cert/*
+source/npm-shrinkwrap.json
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.sql
+
+# logs #
+######################
+*.log
+
+# Temporaly files #
+######################
+*~
+*.swp
+*.swo
+*.tmp
+*.old
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.sass-cache
+frontend/style-refactoring/css
+.svn
+.cache
+
+# htmlhint config #
+######################
+.htmlhintrc
+
+# sass-lint config #
+######################
+sass-lint.yml
+
+deploy/website/storage/*
+deploy/website/instagram/token.pem
+deploy/website/secutix/identity-provider.cert.pem
+deploy/website/secutix/privkey.pem
+deploy/website/secutix/service-provider-php-drupal.cer
+/.buildpath
+/.project
+.docker/script/build/*
